@@ -1,4 +1,4 @@
-# Function iterative selection sort
+# Function recursive selection sort
 def selectionSortRecursive(A, i, n):
     min = i
     for j in range(i + 1, n):
@@ -10,7 +10,7 @@ def selectionSortRecursive(A, i, n):
     if i + 1 < n:
         selectionSortRecursive(A, i + 1, n)
 
-# Function recursive selection sort
+# Function iterative selection sort
 def selectionSortIterative(A):
     for i in range(len(A) - 1):
         min = i

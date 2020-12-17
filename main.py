@@ -4,9 +4,6 @@ import timeit
 import execution
 
 
-
-
-
 if __name__ == "__main__":
     arr = List.LoadList("list2.dat")
     print("Banyak data : {}".format(len(arr)))
