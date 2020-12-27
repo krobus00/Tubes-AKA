@@ -4,8 +4,9 @@ import List
 # generate random n item list
 def listGenerator(n):
     arr = []
-    for _ in range(n):
-        arr.append(random.randint(-1000,1700))
+    for i in range(n):
+        # arr.append(n-i)
+        arr.append(random.randint(1,512))
     return arr
 
-List.SaveList("list2.dat",listGenerator(10))
+List.SaveList("n512visualizer",listGenerator(512))
