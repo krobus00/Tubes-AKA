@@ -23,7 +23,7 @@ if __name__ == "__main__":
             # recursive section
             arr = List.LoadList(i)
             start = timeit.default_timer()
-            SelectionSort.selectionSortRecursive(arr,0,len(arr))
+            SelectionSort.selectionSortRecursive(arr,0)
             execution.calulate("Recursive selection sort", start)
     else:
         ldata = ["n10.dat","n100.dat","n500.dat","n1000.dat", "n1500.dat"]
@@ -41,5 +41,5 @@ if __name__ == "__main__":
             # recursive section
             arr = List.LoadList(i)
             start = timeit.default_timer()
-            SelectionSort.selectionSortRecursive(arr,0,len(arr))
+            SelectionSort.selectionSortRecursive(arr,0)
             execution.calulate("Recursive selection sort", start)
