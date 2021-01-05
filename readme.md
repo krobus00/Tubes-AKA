@@ -27,3 +27,6 @@ def selectionSortIterative(A):
         A[min] = A[i]
         A[i] = temp
 ```
+
+## Pembahasan
+Video pembahasan dapat dilihat pada link [https://youtu.be/Uo5NKfFQs8A][youtube] ini
