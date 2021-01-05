@@ -29,4 +29,4 @@ def selectionSortIterative(A):
 ```
 
 ## Pembahasan
-Video pembahasan dapat dilihat pada link [https://youtu.be/Uo5NKfFQs8A][youtube] ini
+Video pembahasan dapat dilihat pada link [youtube](https://youtu.be/Uo5NKfFQs8A) ini
