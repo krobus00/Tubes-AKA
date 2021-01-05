@@ -5,12 +5,11 @@ import time
 
 import pygame
 
-import List
-
+from fungsi_tambahan.List import *
 
 class Algorithm:
     def __init__(self, name):
-        self.array = List.LoadList("n512visualizer.dat")
+        self.array = LoadList("n512visualizer.dat")
         self.name = name # Get name of the variable
 
     def update_display(self, swap1=None, swap2=None):
