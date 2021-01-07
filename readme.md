@@ -2,7 +2,9 @@
 
 ## Running code
 
-`python main.py wb` `python main.py`
+`python main.py wb`
+
+`python main.py`
 
 ## Source code Selection sort
 
