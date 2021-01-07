@@ -1,5 +1,9 @@
 # Analisis Kompleksitas Algoritma Selection Sort Iterative dan Recursive
 
+## Running code
+
+`python main.py wb` `python main.py`
+
 ## Source code Selection sort
 
 ```python
@@ -29,4 +33,5 @@ def selectionSortIterative(A):
 ```
 
 ## Pembahasan
+
 Video pembahasan dapat dilihat pada link [youtube](https://youtu.be/Uo5NKfFQs8A) ini
